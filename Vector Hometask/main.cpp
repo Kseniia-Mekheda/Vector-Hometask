@@ -20,6 +20,8 @@ int main() {
 
 		cout << "Scalar product of your vectors is: " << scalarProduct(v1, v2) << endl;
 		cout << endl;
+
+		break;
 	}
 
 	case 2:
@@ -46,6 +48,8 @@ int main() {
 		vector<vector<int>> result = multiplyMatrix(m1, m2);
 		cout << "Result of A * B = " << endl;
 		printMatrix(result);
+
+		break;
 	}
 
 	case 3:
@@ -113,6 +117,8 @@ int main() {
 		cout << "Info about all cities of every country: " << endl;
 		cout << endl;
 		getInfoByCountry(merged);
+
+		break;
 	}
 	default:
 		break;
